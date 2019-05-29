@@ -1,0 +1,14 @@
+Fui al nutriologo y me dijo que estaba gordito. Si mi peso es la variable peso y tengo que llegar al peso ideal 
+¿En cuantas semanas llegaré a ese peso si bajo X kilos por semana?
+
+INICIO
+    LEER Peso
+    LEER PesoIdeal
+    semana = 0
+    do {
+        LEER PesoPerdido
+        peso = Peso - PesoPerdido
+        semana = semana + 1
+    } while ( peso <= PesoIdeal)
+    ESCRIBE semana
+FIN

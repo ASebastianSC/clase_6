@@ -1,0 +1,10 @@
+INICIO
+    LEER Numero
+    contador = 1
+
+    DO {
+        Resultado = Numero * contador
+        ESCRIBIR Resultado
+        contador = contador + 1
+    } while ( contador <= 10 )
+FIN

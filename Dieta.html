@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html land="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="application/javascript">
+        let peso = parseFloat(prompt("cuanto pesas?"))
+        const pesoideal = parseInt(prompt("cual es tu peso ideal?"))
+        let semana = 0
+        do{
+            let pesoperdido = parseFloat(prompt("cuanto peso perdiste esta semana?"))
+            peso = peso - pesoperdido
+            semana = semana + 1 
+        } while (peso >= pesoideal) 
+        alert(semana)
+    </script>
+</head>
+</html>
